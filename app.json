@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Pillar Valley",
+    "name": "Smash Pillar",
     "description": "Immerse yourself in a suave world of zen",
-    "slug": "pillar-valley",
+    "slug": "smash-pillar",
     "privacy": "public",
-    "version": "9.0.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#F09458",
     "backgroundColor": "#F09458",
@@ -12,14 +12,14 @@
     "scheme": "plrvly",
     "locales": {
       "en": {
-        "CFBundleName": "Pillar Valley"
+        "CFBundleName": "Smash Pillar"
       },
       "es": {
         "CFBundleName": "Valle de los Pilares"
       }
     },
     "icon": "./icons/expo.png",
-    "githubUrl": "https://github.com/evanbacon/expo-pillar-valley",
+    "githubUrl": "https://github.com/bishaln/smash-pillar",
     "splash": {
       "image": "./icons/splash.png",
       "backgroundColor": "#F09458",
@@ -41,28 +41,6 @@
       }
     },
     "assetBundlePatterns": ["src/assets/**/*", "icons/splash.png"],
-    "ios": {
-      "appStoreUrl": "https://itunes.apple.com/us/app/pillar-valley/id1336398804",
-      "icon": "./icons/pillars/default.png",
-      "supportsTablet": true,
-      "bundleIdentifier": "com.evanbacon.pillarvalley",
-      "googleServicesFile": "./GoogleService-Info.plist",
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-2312569320461549~5287895909",
-        "googleMobileAdsAutoInit": true
-      },
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      },
-      "entitlements": {
-        "com.apple.security.application-groups": ["group.bacon.data"]
-      },
-      "associatedDomains": [
-        "applinks:pillarvalley.netlify.app",
-        "webcredentials:pillarvalley.netlify.app",
-        "activitycontinuation:pillarvalley.netlify.app"
-      ]
-    },
     "android": {
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.evanbacon.pillarvalley",
       "adaptiveIcon": {
